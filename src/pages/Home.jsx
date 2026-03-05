@@ -13,7 +13,7 @@ export default function Home() {
         {/* Content */}
         <div className="relative h-full px-4 py-10 flex items-center justify-center">
           <div className="w-full">
-            <div className="rounded-3xl border border-neon/60 bg-bg/60 backdrop-blur p-6 shadow-[0_0_40px_rgba(168,85,247,0.15)]">
+            <div className="min-w-0 overflow-hidden break-words rounded-3xl border border-neon/60 bg-bg/45 backdrop-blur-md p-6 shadow-[0_0_40px_rgba(168,85,247,0.15)]">
               <p className="text-sm text-white/70">NEXUS GAME ZONE</p>
               <p className="text-3xl font-extrabold tracking-tight mt-1">
                 Eğlence burada başlar
@@ -33,14 +33,14 @@ export default function Home() {
                 <br />
                     Burada sadece oyun oynamazsın; dostluk kurar, heyecanı ve rekabeti birlikte yaşarsın.</p>
 
-              <div className="mt-5 flex items-center gap-2">
-                <span className="inline-flex items-center gap-2 text-xs px-3 py-2 rounded-full border border-stroke bg-card">
+              <div className="mt-5 flex flex-wrap items-center gap-2">
+                <span className="inline-flex max-w-full items-center gap-2 whitespace-nowrap text-xs px-3 py-2 rounded-full border border-stroke bg-card">
                   🎮 Turnuva 
                 </span>
-                <span className="inline-flex items-center gap-2 text-xs px-3 py-2 rounded-full border border-stroke bg-card">
+                <span className="inline-flex max-w-full items-center gap-2 whitespace-nowrap text-xs px-3 py-2 rounded-full border border-stroke bg-card">
                   ⚡ Hızlı servis
                 </span>
-                <span className="inline-flex items-center gap-2 text-xs px-3 py-2 rounded-full border border-stroke bg-card">
+                <span className="inline-flex max-w-full items-center gap-2 whitespace-nowrap text-xs px-3 py-2 rounded-full border border-stroke bg-card">
                     🧼 Hijyenik ve temiz
                 </span>
               </div>
